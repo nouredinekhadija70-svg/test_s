@@ -597,7 +597,7 @@ elif st.session_state.current_page == t('dashboard'):
             fig_bar.update_layout(
                 plot_bgcolor='rgba(255, 255, 255, 0.95)',
                 paper_bgcolor='rgba(255, 255, 255
-                import streamlit as st
+import streamlit as st
 import threading
 import time
 from fastapi import FastAPI
